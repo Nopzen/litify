@@ -1,0 +1,20 @@
+{
+  "name": "litify",
+  "version": "1.0.0",
+  "description": "LitElements implmenetation of an alternative Spotify",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "Typescript",
+    "Litelements",
+    "WebComponents",
+    "Application"
+  ],
+  "author": "Lars Krieger <lars.krieger@gmail.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}
