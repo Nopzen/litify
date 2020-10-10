@@ -8,7 +8,6 @@ export class LitifyApp extends LitElement {
         grid-column-start: col-1;
         grid-column-end: span 3;
         grid-row-start: row-3;
-        grid-row-end: row-3;
       }
     `
   }
