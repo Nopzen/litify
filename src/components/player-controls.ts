@@ -9,7 +9,7 @@ export class PlayerControls extends LitElement {
         height: 100%;
         grid-template-columns: [col-1]17% [col-2]auto [col-3]17%;
         gap: 1.6rem;
-        background-color: var(--black);
+        background-color: var(--grey);
         padding: 0 .8rem;
         filter: brightness(1.5);
       }
