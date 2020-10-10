@@ -19,3 +19,11 @@ body {
   color: var(--white);
   font-size: 62.5%;
 }
+
+litify-app {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: [col-1]17% [col-2]auto [col-3]17%;
+  grid-template-rows: [row-1]25% [row-2]auto [row-3] 75px;
+  gap: 1.6rem;
+}
