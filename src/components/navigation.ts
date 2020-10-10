@@ -18,12 +18,23 @@ export class Navigation extends LitElement {
 
       nav ul li {
         list-style-type: none;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         padding: .4rem 0;
+        opacity: .8;
+      }
+
+      nav ul li:hover {
+        opacity: 1;
+        cursor: pointer;
+      }
+
+      nav ul li fa-icon {
+        margin-right: .8rem;
       }
       
       nav ul li.title {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
+        font-weight: bold;
         margin-bottom: .4rem;
         text-transform: uppercase;
       }
@@ -33,9 +44,9 @@ export class Navigation extends LitElement {
     return html`
       <nav>
         <ul>
-          <li>Home</li>
-          <li>Browse</li>
-          <li>Radio</li>
+          <li class="title"><fa-icon icon="fas fa-home"></fa-icon> Home</li>
+          <li class="title"><fa-icon icon="fas fa-record-vinyl"></fa-icon>Browse</li>
+          <li class="title"><fa-icon icon="fas fa-broadcast-tower"></fa-icon>Radio</li>
         </ul>
         <ul>
           <li class="title">Your Library</li>
