@@ -19,11 +19,15 @@ export class LitifyApp extends LitElement {
         grid-row-start: row-1;
         grid-row-end: span 2;
       }
+      litify-header {
+        grid-column-start: col-2;
+        grid-row-start: row-1;
+      }
     `
   }
   render() {
     return html`
-      <h1>LitifyApp</h1>
+      <litify-header></litify-header>
       <litify-navigation></litify-navigation>
       <litify-social-feed></litify-social-feed>
       <litify-player-controls></litify-player-controls>
