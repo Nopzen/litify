@@ -18,9 +18,28 @@ export class PlayerControls extends LitElement {
         place-self: center stretch;
       }
 
+      div.controller {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+
       div.controls {
         display: flex;
         justify-content: center;
+        align-items: center;
+      }
+
+      div.controls fa-icon {
+        font-size: 1.4rem;
+        margin: 0 1.6rem;
+        cursor: pointer;
+      }
+
+      div.controls fa-icon:nth-child(3) {
+        padding: .8rem 1.1rem;
+        border: 1px solid white;
+        border-radius: 100%;
       }
 
       div.current-track {
@@ -33,8 +52,9 @@ export class PlayerControls extends LitElement {
 
       div.current-track litify-caption fa-icon {
         float: right;
-      } 
-      
+        cursor: pointer;
+      }
+
       div.current-track litify-caption fa-icon:hover {
         cursor: pointer;
         color: var(--error);
@@ -51,8 +71,14 @@ export class PlayerControls extends LitElement {
             <litify-paragraph>J Balvin, Willy William</litify-paragraph>
           </div>
         </div>
-        <div class="controls">
-          Controls
+        <div class="controller">
+          <div class="controls">
+            <fa-icon icon="fas fa-random"></fa-icon>
+            <fa-icon icon="fas fa-step-backward"></fa-icon>
+            <fa-icon icon="fas fa-play"></fa-icon>
+            <fa-icon icon="fas fa-step-forward"></fa-icon>
+            <fa-icon icon="fas fa-redo"></fa-icon>
+          </div>
         </div>
         <div>
           Devices & Volume
