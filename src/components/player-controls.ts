@@ -28,6 +28,7 @@ export class PlayerControls extends LitElement {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 1.6rem;
       }
 
       div.controls fa-icon {
@@ -79,6 +80,7 @@ export class PlayerControls extends LitElement {
             <fa-icon icon="fas fa-step-forward"></fa-icon>
             <fa-icon icon="fas fa-redo"></fa-icon>
           </div>
+          <litfy-slider></litfy-slider>
         </div>
         <div>
           Devices & Volume
