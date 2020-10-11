@@ -60,6 +60,21 @@ export class PlayerControls extends LitElement {
         cursor: pointer;
         color: var(--error);
       } 
+
+      div.devices {
+        display: flex;
+        font-size: 1.2rem;
+        align-items: center;
+      }
+      
+      div.devices fa-icon {
+        margin: 0 1.6rem;
+        cursor: pointer;
+      }
+
+      div.devices litify-slider {
+        flex: 1 1 25%;
+      }
     `;
   }
   render() {
@@ -80,10 +95,14 @@ export class PlayerControls extends LitElement {
             <fa-icon icon="fas fa-step-forward"></fa-icon>
             <fa-icon icon="fas fa-redo"></fa-icon>
           </div>
-          <litfy-slider></litfy-slider>
+          <litify-slider></litify-slider>
         </div>
-        <div>
-          Devices & Volume
+        <div class="devices">
+          <fa-icon icon="fas fa-indent"></fa-icon>
+          <fa-icon icon="fas fa-desktop"></fa-icon>
+          <fa-icon icon="fas fa-volume-up"></fa-icon>
+          <litify-slider></litify-slider>
+          <fa-icon icon="fas fa-expand"></fa-icon>
         </div>
       </section>
     `
