@@ -1,6 +1,6 @@
 import { css, customElement, html, LitElement } from "lit-element";
 
-@customElement("litfy-slider")
+@customElement("litify-slider")
 export class Slider extends LitElement {
   static get styles() {
     return css`
