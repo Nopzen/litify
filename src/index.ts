@@ -6,4 +6,5 @@ export { Navigation } from "./components/navigation";
 export { SocialFeed } from "./components/social-feed";
 export { Avatar } from "./components/avatar";
 export { Icon } from "./components/icon";
+export { Record } from "./components/record";
 export { Title, SubTitle, Caption, Paragraph} from "./components/typography";
