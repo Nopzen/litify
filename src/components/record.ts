@@ -47,8 +47,8 @@ export class Record extends LitElement {
 
   private getClassMap(): RecordClassMap {
     return {
-      display: this. size === RecordSize.DISPLAY,
-      large: this. size === RecordSize.LARGE,
+      display: this.size === RecordSize.DISPLAY,
+      large: this.size === RecordSize.LARGE,
       medium: this.size === RecordSize.MEDIUM,
       small: this.size === RecordSize.SMALL
     } 
