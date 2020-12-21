@@ -9,4 +9,5 @@ export { Icon } from "./components/icon";
 export { Record } from "./components/record";
 export { Slider } from "./components/slider";
 export { Header } from "./components/header";
-export { Title, SubTitle, Caption, Paragraph} from "./components/typography";
+export { Body } from "./components/body";
+export { Hero, Title, SubTitle, Caption, Paragraph} from "./components/typography";

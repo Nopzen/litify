@@ -23,11 +23,16 @@ export class LitifyApp extends LitElement {
         grid-column-start: col-2;
         grid-row-start: row-1;
       }
+      litify-body {
+        grid-column-start: col-2;
+        grid-row-start: row-2;
+      }
     `
   }
   render() {
     return html`
       <litify-header></litify-header>
+      <litify-body></litify-body>
       <litify-navigation></litify-navigation>
       <litify-social-feed></litify-social-feed>
       <litify-player-controls></litify-player-controls>
