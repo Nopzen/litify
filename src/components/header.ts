@@ -8,7 +8,7 @@ export class Header extends LitElement {
         display: flex;
         align-items: center;
         font-size: 1.6rem;
-        padding: .8rem 1.6rem .8rem .8rem;
+        padding: .8rem 3.2rem .8rem 1.6rem;
       }
 
       section nav {
