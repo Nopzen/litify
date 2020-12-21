@@ -1,10 +1,29 @@
 import { css, customElement, html, LitElement } from "lit-element"
 
+@customElement("litify-hero")
+export class Hero extends LitElement {
+  static get styles() {
+    return css`
+      h1 {
+        font-size: 4.8rem;
+        line-height: 5.8rem;
+        margin: 0;
+      }
+    `
+  }
+
+  render() {
+    return html`
+      <h1><slot></slot></h1>
+    `
+  }
+}
+
 @customElement("litify-title")
 export class Title extends LitElement {
   static get styles() {
     return css`
-      h1 {
+      h2 {
         font-size: 1.8rem;
         line-height: 2.7rem;
         margin: 0;
@@ -14,7 +33,7 @@ export class Title extends LitElement {
 
   render() {
     return html`
-      <h1><slot></slot></h1>
+      <h2><slot></slot></h2>
     `
   }
 }
