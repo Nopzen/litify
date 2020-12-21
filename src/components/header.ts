@@ -18,7 +18,18 @@ export class Header extends LitElement {
       }
 
       section nav fa-icon {
-        margin: 0 .8rem;
+        margin: 0 1.6rem;
+      }
+
+      section input {
+        padding: 6px 8px;
+        border-radius: 20px;
+        border: none;
+      }
+
+      section input:focus {
+        box-shadow: none;
+        outline: none;
       }
 
       div.user {
@@ -28,6 +39,7 @@ export class Header extends LitElement {
         align-items: center;
         padding: .8rem 0;
       }
+
       div.user litify-paragraph {
         margin-left: .8rem;
       }

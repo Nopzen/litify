@@ -7,8 +7,9 @@
 }
 
 :root {
-  --grey: #353535;
-  --grey-dark: #262626;
+  --grey: #323232;
+  --grey-light: #383838;
+  --grey-dark: #252525;
   --white: #ffffff;
   --primary: #264653;
   --success: #2a9d8f;
@@ -20,7 +21,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: var(--grey);
+  background: linear-gradient(0deg, var(--grey) 70%, var(--grey-light) 100%);
+  background-color: var(--grey-dark);
   color: var(--white);
   font-size: 62.5%;
   font-family: 'Open Sans', sans-serif;
